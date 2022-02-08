@@ -28,11 +28,7 @@ class Router
     private function queryArr($string)
     {
         if ($string == null || $string == "") return "";
-        $qArr = array();
-        foreach (explode("&", $string) as $item) {
-            $i = explode("=", $item);
-            $qArr[$i[0]] = $i[1];
-        }
+        parse_str($string, $qArr);
         return $qArr;
     }
     //preg_replace_callback function
