@@ -2,7 +2,7 @@
 
 namespace PHRouter;
 
-require __DIR__."Phemplate.php";
+require __DIR__."/Phemplate.php";
 class Response
 {
     private Phemplate $temp;
