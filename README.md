@@ -15,7 +15,8 @@ PHRouter is a simple yet powerful PHP routing library that helps you manage and 
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/koushik/phrouter.git```
+   git clone https://github.com/koushik/phrouter.git
+   ```
 
 2. Include the `Router.php` and `Response.php` files in your PHP project.
 
